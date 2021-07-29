@@ -8,10 +8,11 @@ This repository provides the basic implementation of DICE embedding (not the eva
 
 I also provide a 2-D and 3-D visualizations of the DICE embeddings within the range [0,100] and [0,9999] to illustrate the characteristics of DICE embeddings and how they occupy the D-dimensional space using the orthonormal bases of a random matrix `M`, from which the orthonormal columns of Q are derived from with QR decomposition.
 
-## 2-D Visualization (range: [0, 100] / bound: s\_n \in [0,100])
+## 2-D Visualization (DICE-2) (range: [0, 100] / bound: s\_n \in [0,100])
 ![dice2d](./figures/dice-2.png)
 
-## 3-D visualization (range: [0, 1000] / bound: s\_m \in [0, 9999])
+## 3-D visualization (DICE-3) (range: [0, 1000] / bound: s\_m \in [0, 9999])
 ![dice3d](./figures/dice-3.png)
 
-
+## 3-D Visualization (DICE-D) (D=256) (range: [0, 10000] / bound: s\_n \in [0,100])
+![dice256d](./figures/dice-256.png)
